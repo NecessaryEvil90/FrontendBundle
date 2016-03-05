@@ -1,0 +1,25 @@
+{% extends '/base.html.twig' %}
+
+{% block body %}
+
+        <div class="jumbotron vertical-center">
+            <div class="container">
+                <div class="col-sm-6">
+                    {{ render(controller('NEvilUserBundle:Login:login')) }}
+                </div>
+                <div class="col-sm-6">
+                    {{ render(controller('NEvilUserBundle:Registration:register')) }}
+                </div>
+            </div>
+        </div>
+<style>
+
+html, body, .container {
+  height: 100%;
+}
+
+.jumbotron.vertical-center {
+  margin-bottom: 0; /* Remove the default bottom margin of .jumbotron */
+}
+</style>
+{% endblock %}
