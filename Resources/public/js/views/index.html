@@ -1,6 +1,5 @@
 <div class="jumbotron vertical-center">
     <div class="container">
-        <div ng-view></div>
         <div class="col-sm-6">
             <form action="/login_check" class="col-sm-offset-2" method="post">
                 <div class="form-group row">
@@ -19,7 +18,7 @@
             </form>
         </div>
         <div class="col-sm-6">
-            <form name="fos_user_registration_form" method="post" action="/register">
+            <form method="post" action="/register">
                 <div class="form-group row">
                     <label class="control-label col-sm-2 required">Username</label>
                     <div class="col-sm-6">

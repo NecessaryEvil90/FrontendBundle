@@ -14,6 +14,6 @@ class FrontendController extends Controller
      */
     public function indexAction()
     {
-        return $this->render('NEvilFrontendBundle:Frontend:index.html.twig');
+        return $this->render('base.html.twig');
     }
 }
