@@ -13,13 +13,13 @@ frontendApp.config(['$routeProvider','$locationProvider', '$controllerProvider',
           requireBase: false
         });
 
-        $routeProvider.
-        when('/', {
-            templateUrl: '/bundles/nevilfrontend/js/views/index.html'
-        }).
-        when('/lobby', {
-            templateUrl: '/bundles/nevilfrontend/js/lobby_module/views/lobby.html'
-        });
+        // $routeProvider.
+        // when('/', {
+        //     templateUrl: '/bundles/nevilfrontend/js/views/index.html'
+        // }).
+        // when('/lobby', {
+        //     templateUrl: '/bundles/nevilfrontend/js/views/lobby.html'
+        // });
 
     }]
 );
