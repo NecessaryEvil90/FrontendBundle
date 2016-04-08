@@ -15,7 +15,6 @@ frontendApp.service('lobbyService', function($http, $rootScope){
                 console.error('Error:', response.data.error);
                 return [];
             } else {
-                console.log(response.data);
                 me.lobbysLoaded(response.data);
                 return response.data;
             }

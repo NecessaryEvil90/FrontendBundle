@@ -10,10 +10,10 @@ use Symfony\Component\HttpFoundation\Response;
 class FrontendController extends Controller
 {
     /**
-     * @Route("/", name="home")
+     * @Route("/game", name="home")
      */
     public function indexAction()
     {
-        return $this->render('base.html.twig');
+        return $this->render('NEvilFrontendBundle:Frontend:index.html.twig');
     }
 }
